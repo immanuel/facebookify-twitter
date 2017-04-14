@@ -64,17 +64,25 @@ body {
 }
 
 .time:after {
-    content: "\00b7";
+    content: "";
     background-image: url(fb_sprite.png);
     width: 12px;
     display: inline-block;
-    /* TODO: Fix the background */
     background-position: -70px -98px;
+    position: relative;
+    bottom: -1px;
+    left: -2px;
+    height: 12px;
 }
 
 .time a {
     font-size: 12px;
     line-height: 16.08px
+}
+
+.time a:after {
+    content: "\00b7";
+    padding-left: 3px;
 }
 
 .js-tweet-text-container {
