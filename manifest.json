@@ -11,5 +11,8 @@
             "js" : ["inject.js"]
         }
     ], 
-    "web_accessible_resources": ["facebookify.css"]
+    "web_accessible_resources": [
+        "facebookify.css",
+        "fb_sprite.png"
+    ]
 }

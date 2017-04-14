@@ -2,6 +2,8 @@
 /* Background color */
 body {
     background-color: #e9ebee;
+    font-family: San Francisco, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 /******************************************************************************/
@@ -33,10 +35,12 @@ body {
     border-color: #e5e6e9 #dfe0e4 #d0d1d5;
 }
 
-.avatar {
+.stream-item-header .avatar {
     width: 40px;
     height: 40px;
     border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
 }
 
 .fullname {
@@ -44,6 +48,40 @@ body {
     font-size: 14px;
     font-weight: bold;
     letter-spacing: -0.24px;
-    font-family: San Francisco, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+    line-height: 19.32px;
 }
 
+.username {
+    display: none
+}
+
+.time {
+    display: block
+}
+
+.time:before {
+    display: none
+}
+
+.time:after {
+    content: "\00b7";
+    background-image: url(fb_sprite.png);
+    width: 12px;
+    display: inline-block;
+    /* TODO: Fix the background */
+    background-position: -70px -98px;
+}
+
+.time a {
+    font-size: 12px;
+    line-height: 16.08px
+}
+
+.js-tweet-text-container {
+    clear: left;
+    margin-top: 13px;
+}
+
+.stream-item .content {
+    margin-left: 0px;
+}
