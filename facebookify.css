@@ -247,3 +247,39 @@ body {
     border-bottom: 0px;
     padding: 0px 0px 6px 0px;
 }
+
+/******************************************************************************/
+/* Twitter Cards */
+
+.TwitterCardsGrid {
+    background-color: #fff;
+}
+
+.TwitterCard-container {
+    border-radius: 0px;
+}
+
+.TwitterCard-title {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 22px;
+    color: #1d2129;
+}
+
+.TwitterCardsGrid-col--spacerTop {
+    font-family: San Francisco, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1d2129;
+    padding-top: 1px;
+}
+
+.TwitterCard .SummaryCard-destination {
+    color: #90949c;
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+    padding-top: 5.5px;
+}
