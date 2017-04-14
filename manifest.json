@@ -14,5 +14,12 @@
     "web_accessible_resources": [
         "facebookify.css",
         "fb_sprite.png"
-    ]
+    ],
+
+    "background": {
+        "scripts": ["toggle.js"],
+        "persistent": false
+    },
+
+    "browser_action": {}
 }
