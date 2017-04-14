@@ -1,0 +1,49 @@
+/******************************************************************************/
+/* Background color */
+body {
+    background-color: #e9ebee;
+}
+
+/******************************************************************************/
+/* Top Nav */
+.global-nav-inner {
+    background-color: #3b5998;
+    border-bottom: 1px solid #29487d;
+}
+
+.nav>li {
+    color:#fff;
+}
+
+.nav>li>a {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+    letter-spacing: -0.24px;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/******************************************************************************/
+/* Tweet structure */
+.stream-item {
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 0px;
+}
+
+.fullname {
+    color: #365899;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.24px;
+    font-family: San Francisco, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+}
+

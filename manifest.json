@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+
+    "name": "Facebook-ify Twitter",
+    "description": "Make Twitter look like Facebook",
+    "version": "0.1",
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.twitter.com/*"],
+            "js" : ["inject.js"]
+        }
+    ], 
+    "web_accessible_resources": ["facebookify.css"]
+}
