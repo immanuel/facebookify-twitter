@@ -20,6 +20,7 @@ body {
 
 .AdaptiveMedia, .AdaptiveMedia-video {
     width: 476px;
+    border-radius: 0px;
 }
 
 /******************************************************************************/
@@ -282,4 +283,8 @@ body {
     line-height: 11px;
     text-transform: uppercase;
     padding-top: 5.5px;
+}
+
+.player-container {
+    border-radius: 0px;
 }
