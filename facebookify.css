@@ -7,6 +7,19 @@ body {
     background-color: #e9ebee;
     font-family: San Francisco, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
     -webkit-font-smoothing: subpixel-antialiased;
+    letter-spacing: -0.02em;
+    line-height: 1.38;
+}
+
+/******************************************************************************/
+/* Main body */
+
+.content-main {
+    width: 502px;
+}
+
+.AdaptiveMedia, .AdaptiveMedia-video {
+    width: 476px;
 }
 
 /******************************************************************************/
@@ -126,4 +139,64 @@ body {
 
 .tweet>.context .with-icn .Icon {
     margin-right:0px;
+}
+
+.ProfileTweet-action--more {
+    position:relative;
+    top:-40px;
+}
+
+.ProfileTweet-action--favorite {
+    position:relative;
+    left:-160px;
+}
+
+.ProfileTweet-action--retweet {
+    position:relative;
+    left:310px;
+}
+
+.ProfileTweet-action--reply {
+    position:relative;
+    left:315px;
+}
+
+.HeartAnimation {
+    background:url(fb_sprite.png);
+    background-position: -34px -67px;
+    background-size: inherit;
+    left:0;
+    top:0;
+}
+
+.ProfileTweet-action--favorite:hover
+.HeartAnimation,.ProfileTweet-action--favorite .ProfileTweet-actionButton:focus
+.HeartAnimation,.favorited .ProfileTweet-action--favorite .HeartAnimation {
+    background-position: -34px -67px    
+}
+
+.ProfileTweet-actionCount {
+    font-weight:normal;
+    letter-spacing: -0.02em;
+    line-height: 20px;
+    margin-left:0px;
+}
+
+.Icon--retweet:before, .Icon--reply:before {
+    content: "Shares";
+    font-family: San Francisco, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    position: relative;
+    top: -2px;
+    letter-spacing: -0.02em;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.Icon--retweet:before {
+    content: "Retweets";
+}
+
+.Icon--reply:before {
+    content: "Replies";
 }
