@@ -200,3 +200,50 @@ body {
 .Icon--reply:before {
     content: "Replies";
 }
+
+/******************************************************************************/
+/* In case you missed it*/
+
+.stream-item.separated-module {
+    padding:12px;
+}
+
+.recap-module .stream-item {
+    border-left: 1px solid #e6ecf0;
+    border-right: 1px solid #e6ecf0;
+}
+
+.content-main .stream-items .recap-module>.stream-item:last-child, .content-main
+.stream-items .recap-module>.stream-item:last-child .tweet, .content-main
+.stream-items .recap-module>.stream-item>li:last-child, .content-main
+.stream-items .recap-module>.stream-item:last-child li:last-child,
+.stream-item.separated-module+.stream-item,
+.stream-item.separated-module+.stream-item .tweet:hover,
+.PromptbirdPrompt-streamItem.separated-module+.stream-item,.stream-item.separated-module {
+    border-radius: 0px;
+}
+
+.recap-module .AdaptiveMedia, .recap-module .AdaptiveMedia-video {
+    width: 450px;
+}
+
+.recap-module .ProfileTweet-action--retweet {
+    left: 280px;
+}
+
+.recap-module .ProfileTweet-action--reply {
+    left: 285px;
+}
+
+.recap-module .tweet {
+    border-bottom: 0px;
+}
+    
+.recap-header {
+    color: #90949c;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.38;
+    border-bottom: 0px;
+    padding: 0px 0px 6px 0px;
+}
