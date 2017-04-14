@@ -1,5 +1,8 @@
+/* TODO: Check ems and pxs for line height and letter spacing */
+
 /******************************************************************************/
 /* Background color */
+
 body {
     background-color: #e9ebee;
     font-family: San Francisco, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
@@ -25,9 +28,13 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-
 /******************************************************************************/
-/* Tweet structure */
+/* Tweet box */
+
+.tweet {
+    padding: 12px
+}
+
 .stream-item {
     margin-bottom: 10px;
     border-radius: 3px;
@@ -42,6 +49,9 @@ body {
     margin-left: 0px;
     margin-right: 8px;
 }
+
+/******************************************************************************/
+/* Tweet profile */
 
 .fullname {
     color: #365899;
@@ -92,4 +102,28 @@ body {
 
 .stream-item .content {
     margin-left: 0px;
+}
+
+/******************************************************************************/
+/* Tweet context */
+.tweet>.context, .tweet>.context .with-icn {
+    margin-left: 0px;
+}
+
+.tweet>.context .with-icn{
+    border-bottom:1px solid #e9e9e9;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    letter-spacing: -0.02em;
+    line-height: 1.38;
+    color: #90949c;
+}
+
+.tweet .context .pretty-link b {
+    color: #365899;
+    font-weight: bold;
+}
+
+.tweet>.context .with-icn .Icon {
+    margin-right:0px;
 }
