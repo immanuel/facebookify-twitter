@@ -354,3 +354,35 @@ body {
     top: -2px;
     right: 4px;
 }
+
+/******************************************************************************/
+/* Profile Stats */
+
+.ProfileCardStats {
+    margin-left: 0px;
+    margin-top: 4px;
+    padding: 10px 0px;
+}
+
+.ProfileCardStats .ProfileCardStats-stat {
+    display: inline;
+}
+
+.ProfileCardStats-statLabel {
+    width: 126px;
+    float: left;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    line-height: 28px;
+    text-transform: none;
+    color: #1d2129;
+    padding-left: 28px;
+}
+
+.ProfileCardStats-statValue {
+    color: #90949c;
+    font-size: 11px;
+    line-height: 28px;
+    text-align: right;
+    padding-top:0px;
+}
