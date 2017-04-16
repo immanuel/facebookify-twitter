@@ -1,7 +1,7 @@
 /* TODO: Check ems and pxs for line height and letter spacing */
 
 /******************************************************************************/
-/* Background color */
+/* Main body */
 
 body {
     background-color: #e9ebee;
@@ -11,9 +11,6 @@ body {
     line-height: 1.38;
 }
 
-/******************************************************************************/
-/* Main body */
-
 .content-main {
     width: 502px;
 }
@@ -21,6 +18,21 @@ body {
 .AdaptiveMedia, .AdaptiveMedia-video {
     width: 476px;
     border-radius: 0px;
+}
+
+@media (min-width: 1236px) {
+    body.three-col .wrapper {
+        width: 1219px;
+        padding: 55px 0px 55px;
+    }
+}
+
+.dashboard-left {
+    width: 180px;
+}
+
+.dashboard-right {
+    width: 310px;
 }
 
 /******************************************************************************/
@@ -287,4 +299,58 @@ body {
 
 .player-container {
     border-radius: 0px;
+}
+
+/******************************************************************************/
+/* Profile picture */
+
+.DashboardProfileCard {
+    background: inherit;
+}
+
+.DashboardProfileCard-avatarContainer {
+    width: 20px;
+}
+
+.DashboardProfileCard-bg {
+    height: 0px;
+    border: 0px;
+}
+
+.DashboardProfileCard-avatarLink {
+    margin:4px 0px 0px 0px;
+    padding: 0px;
+}
+
+.DashboardProfileCard-avatarImage {
+    border-radius: 0px;
+    border: 0px;
+    height: 20px;
+    width: 20px;
+}
+
+.DashboardProfileCard-avatarImage .Icon {
+    margin: 1px 0px 0px 2px;
+}
+
+.Icon--extraLarge {
+    font-size: 16px;
+}
+
+.DashboardProfileCard-userFields {
+    top: 2px;
+    left: 27px;
+    width: 151px;
+}
+
+.DashboardProfileCard-name {
+    font-size: 12px;
+    font-weight: normal;
+    color: #1d2129;
+}
+
+.DashboardProfileCard .account-group .UserBadges {
+    position: absolute;
+    top: -2px;
+    right: 4px;
 }
