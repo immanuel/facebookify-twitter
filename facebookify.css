@@ -21,6 +21,9 @@ body {
 }
 
 @media (min-width: 1236px) {
+    body.three-col .content-main {
+        margin-left: 190px;
+    }
     body.three-col .wrapper {
         width: 1219px;
         padding: 55px 0px 55px;
@@ -29,6 +32,7 @@ body {
 
 .dashboard-left {
     width: 180px;
+    position: fixed;
 }
 
 .dashboard-right {
