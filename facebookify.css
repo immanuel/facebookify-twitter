@@ -218,6 +218,10 @@ li#global-nav-home {
     border-radius: 2px;
 }
 
+#global-actions>li:hover>a, #global-actions>li.active>a {
+    height: 46px;
+}
+
 /******************************************************************************/
 /* Tweet box */
 
@@ -292,6 +296,10 @@ li#global-nav-home {
 
 .stream-item .content {
     margin-left: 0px;
+}
+
+.Icon--verified {
+    color: rgb(105, 140, 255);
 }
 
 /******************************************************************************/
