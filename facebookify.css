@@ -52,9 +52,22 @@ body {
     border-bottom: 1px solid #29487d;
 }
 
+.nav>li {
+    color:#fff;
+}
+
+.nav>li>a {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+    letter-spacing: -0.24px;
+    -webkit-font-smoothing: antialiased;
+}
+
 @media screen and (min-width: 1236px){
     .global-nav .container {
-        max-width: 1219px;
+        max-width: 1014px;
+        padding-right: 205px;
     }
 
     .bird-topbar-etched {
@@ -116,20 +129,93 @@ body {
     margin-left: 1px;
 }
 
-.nav>li {
-    color:#fff;
+li.topbar-tweet-btn {
+    display: none;
+}
+
+ul#global-actions {
+    margin-right: 0px;
+}
+
+.Icon--home,
+.moments .text, 
+.notifications .text,
+.dm-nav .text {
+    display: none;
+}
+
+.Icon--dm:before {
+    content: "";
+    background-image: url(fb_sprite2.png);
+    background-position: 0 -313px;
+    height: 24px;
+    width: 24px;
+}
+
+.Icon--notifications:before {
+    content: "";
+    background-image: url(fb_sprite2.png);
+    background-position: 0 -113px;
+    height: 24px;
+    width: 24px;
+}
+
+.Icon--lightning:before {
+    height: 24px;
+    width: 24px;
+}
+
+.nav>li .Icon {
+    margin-left:0px;
+    margin-top: 9px;
 }
 
 .nav>li>a {
-    font-weight: bold;
-    font-size: 12px;
-    font-family: -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
-    letter-spacing: -0.24px;
-    -webkit-font-smoothing: antialiased;
+    padding: 0 6px 0 3px;
 }
 
-li.topbar-tweet-btn {
-    display: none;
+.nav .moments .Icon--lightning {
+    margin-left: 10px;
+}
+
+li#global-nav-home {
+    padding-right: 15px;
+}
+
+#global-actions .new:before {
+    right: 6px;
+    font-size: 10px;
+    top: 16.5px;
+    color: #fff;
+    left:auto;
+}
+
+
+.global-nav .pull-right .right-actions {
+    margin-left: 300px;
+}
+
+.global-nav .pull-right .dropdown-toggle {
+    margin-top: 10px;
+}
+
+.nav .session .dropdown-toggle {
+    height: 24px;
+    width: 24px;
+    border-radius: 2px;
+}
+
+.nav .session .dropdown-toggle:before {
+    border-radius: 2px;
+}
+
+.Avatar--size32 {
+    width: 24px;
+    height: 24px;
+}
+
+.Avatar--circle {
+    border-radius: 2px;
 }
 
 /******************************************************************************/
