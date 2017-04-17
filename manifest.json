@@ -14,7 +14,8 @@
     ], 
     "web_accessible_resources": [
         "facebookify.css",
-        "fb_sprite.png"
+        "fb_sprite.png",
+        "fb_sprite2.png"
     ],
 
     "background": {
